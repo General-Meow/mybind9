@@ -1,6 +1,6 @@
 $TTL    604800
 @       IN      SOA     paulhoang.com. paul.localhost. (
-                              2         ; Serial
+                              4         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -12,3 +12,4 @@ $TTL    604800
 51	IN	PTR	ns1.paulhoang.com.
 51      IN      PTR     nuc.paulhoang.com.
 50      IN      PTR     odroid.paulhoang.com.
+70      IN      PTR     blackpearl.paulhoang.com.
