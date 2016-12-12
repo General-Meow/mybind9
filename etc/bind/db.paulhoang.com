@@ -1,13 +1,13 @@
 $TTL    604800
-@       IN      SOA     ns1.paulhoang.com. paul.localhost. (
-                              4         ; Serial
+@       IN      SOA     nuc.paulhoang.com. paul.localhost. (
+                              5         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
                          604800 )       ; Negative Cache TTL
 ;
 ; name servers - NS records
-        IN      NS      ns1.paulhoang.com.
+        IN      NS      nuc.paulhoang.com.
 
 ; name servers - A records
 nuc.paulhoang.com.     IN      A       192.168.1.51

@@ -3,11 +3,6 @@ zone "paulhoang.com" {
         file "/etc/bind/db.paulhoang.com";
 };
 
-zone "local" {
-	type master;
-    file "/etc/bind/db.local";
-}
-
 zone "0.42.10.in-addr.arpa" {
         type master;
         notify no;
