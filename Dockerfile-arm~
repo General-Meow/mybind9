@@ -4,13 +4,7 @@ FROM hypriot/rpi-alpine-scratch
 RUN apk update && \
 apk upgrade && \
 apk add bash && \
-apl add bind && \
 rm -rf /var/cache/apk/*
 MAINTAINER Paul Hoang 2017-01-08
 EXPOSE 53
-RUN mkdir /etc/bind/master
-RUN echo 'include "/etc/bind/named.conf.local"' >> /etc/bind/named.conf.authoritative 
-COPY ./bind/named.conf.local /etc/bind/named.conf.local
-COPY ./bind/db.10 /etc/bind/named.conf.local
-COPY ./bind/db.paulhoang.com /etc/bind/named.conf.local
 ENTRYPOINT ["/bin/bash"]
