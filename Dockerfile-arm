@@ -4,7 +4,7 @@ FROM hypriot/rpi-alpine-scratch
 RUN apk update && \
 apk upgrade && \
 apk add bash && \
-apk add bash-tools && \
+apk add bind-tools && \
 #apk add bind && \
 #rm -rf /var/cache/apk/*
 apk add bind
