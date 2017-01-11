@@ -42,7 +42,8 @@ options {
 	// Specify a list of CIDR masks which should be allowed to issue recursive
 	// queries to the DNS server. Do NOT specify 0.0.0.0/0 here; see above.
 	allow-recursion {
-		127.0.0.1/32;
+		//127.0.0.1/32;
+    192.168.1.1/32;
 	};
 
 	// If you want this resolver to itself resolve via means of another recursive
