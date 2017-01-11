@@ -10,6 +10,7 @@ apk add bind-tools && \
 apk add bind
 MAINTAINER Paul Hoang 2017-01-08
 EXPOSE 53 53/udp
+CMD ["mkdir", "-p", "/var/cache/bind"] 
 ADD ./etc/bind/named.conf /etc/bind/named.conf
 ADD ./etc/bind/db.10 /etc/bind/db.10
 ADD ./etc/bind/db.paulhoang.com /etc/bind/db.paulhoang.com
