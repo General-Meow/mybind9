@@ -4,6 +4,8 @@ FROM hypriot/rpi-alpine-scratch
 RUN apk update && \
 apk upgrade && \
 apk add bash && \
+apl add bind && \
+rm -rf /var/cache/apk/*
 MAINTAINER Paul Hoang 2017-01-08
 EXPOSE 53
 ADD ./etc/bind/db.10 /etc/bind/db.10
