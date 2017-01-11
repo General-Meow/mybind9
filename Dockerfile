@@ -11,10 +11,8 @@ RUN ["apt-get", "upgrade", "-y"]
 RUN ["apt-get", "install", "-y", "bind9"]
 ADD ./etc/bind/db.10 /etc/bind/db.10
 ADD ./etc/bind/db.paulhoang.com /etc/bind/db.paulhoang.com
-#ADD ./etc/bind/db.local /etc/bind/db.local
 ADD ./etc/bind/named.conf.local /etc/bind/named.conf.local
 ADD ./etc/bind/named.conf.options /etc/bind/named.conf.options
-VOLUME /etc/bind
 EXPOSE 53
 CMD ["/usr/sbin/named", "-c", "/etc/bind/named.conf", "-f"]
 #CMD ["/bin/bash"]
