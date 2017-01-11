@@ -4,6 +4,7 @@ options {
 	// Configure the IPs to listen on here.
 	//listen-on { 127.0.0.1; };
 	//listen-on-v6 { none; };
+  listen-on { any; };
   listen-on-v6 { any; };
 
 	// If you want to allow only specific hosts to use the DNS server:
