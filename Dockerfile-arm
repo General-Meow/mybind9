@@ -10,7 +10,7 @@ apk add bind-tools && \
 apk add bind
 MAINTAINER Paul Hoang 2017-01-08
 EXPOSE 53 53/udp
-ADD ./etc/bind/named.conf.authoritive /etc/bind/named.conf.authoritive
+ADD ./etc/bind/named.conf.authoritative /etc/bind/named.conf.authoritative
 ADD ./etc/bind/db.10 /etc/bind/db.10
 ADD ./etc/bind/db.paulhoang.com /etc/bind/db.paulhoang.com
 ADD ./etc/bind/named.conf.local /etc/bind/named.conf.local
