@@ -9,7 +9,7 @@ apk add bind-tools && \
 #rm -rf /var/cache/apk/*
 apk add bind
 MAINTAINER Paul Hoang 2017-01-08
-EXPOSE 53
+EXPOSE 53 53/udp
 ADD ./etc/bind/named.conf.authoritive /etc/bind/named.conf.authoritive
 ADD ./etc/bind/db.10 /etc/bind/db.10
 ADD ./etc/bind/db.paulhoang.com /etc/bind/db.paulhoang.com

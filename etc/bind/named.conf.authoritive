@@ -2,13 +2,26 @@ options {
 	directory "/var/bind";
 
 	// Configure the IPs to listen on here.
-	listen-on { 127.0.0.1; };
-	listen-on-v6 { none; };
+	//listen-on { 127.0.0.1; };
+	//listen-on-v6 { none; };
+  listen-on-v6 { any; };
 
 	// If you want to allow only specific hosts to use the DNS server:
 	//allow-query {
 	//	127.0.0.1;
 	//};
+
+  forwarders {
+
+    //talk talk
+    78.151.235.3;
+    78.151.235.132;
+
+    //google dns servers
+    8.8.8.8;
+    8.8.4.4;
+  };
+
 
 	// Specify a list of IPs/masks to allow zone transfers to here.
 	//
