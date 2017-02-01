@@ -1,6 +1,6 @@
 $TTL    604800
 @       IN      SOA     paulhoang.com. paul.localhost. (
-                              6         ; Serial
+                              7         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -9,10 +9,11 @@ $TTL    604800
 ; name servers
       IN      NS      nuc.paulhoang.com.
 ; PTR Records
-51		IN		PTR		nuc.paulhoang.com.
-51      IN      PTR     nuc.paulhoang.com.
-50      IN      PTR     odroid.paulhoang.com.
-70      IN      PTR     blackpearl.paulhoang.com.
-71		IN		PTR		pinkpearl.paulhoang.com.
-72		IN		PTR		redpearl.paulhoang.com.
-73		IN		PTR		greenpearl.paulhoang.com.
+50    IN    PTR   odroid.paulhoang.com.
+51    IN		PTR   nuc.paulhoang.com.
+51    IN    PTR   nuc.paulhoang.com.
+52    IN    PTR   pine.paulhoang.com.
+70    IN    PTR   blackpearl.paulhoang.com.
+71		IN		PTR	  pinkpearl.paulhoang.com.
+72		IN		PTR	  redpearl.paulhoang.com.
+73		IN		PTR	  greenpearl.paulhoang.com.
