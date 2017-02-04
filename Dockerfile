@@ -1,3 +1,4 @@
+# Build: docker build -t generalmeow/mybind9:<TAG> .
 # Run this with docker run -d --name mybind9 -p 53:53 -p 53:53/udp generalmeow/mybind9
 # Make sure you disable dnsmasq for the networking manager and restart before using this
 # nano /etc/NetworkManager/NetworkManager.conf - hash it out

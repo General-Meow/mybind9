@@ -1,3 +1,4 @@
+# Build: docker build -t generalmeow/mybind9:<TAG>arm .
 # build: docker build -t generalmeow/mybind9:<TAG>-arm -f Dockerfile-arm .
 # run: docker run -d -p 53:53 -p 53:53/udp --name mybind9 generalmeow/mybind9:<TAG>-arm
 FROM hypriot/rpi-alpine-scratch

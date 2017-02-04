@@ -45,6 +45,7 @@ options {
 		//127.0.0.1/32;
     //192.168.1.1 - 192.168.1.255
     192.168.1.1/24;
+		172.17.0.1/24;
 	};
 
 	// If you want this resolver to itself resolve via means of another recursive
