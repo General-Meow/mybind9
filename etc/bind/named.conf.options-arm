@@ -51,7 +51,7 @@ options {
 		// /8 for 255.0.0.0 (0.255.255.255 flip) i.e 192.1.1.1/8 is 192.0.0.1 - 192.255.255.255
     192.168.0.0/16;
 		172.16.0.0/12;
-    10.0.0.0/8
+    10.0.0.0/8;
 	};
 
 	// If you want this resolver to itself resolve via means of another recursive
@@ -59,11 +59,11 @@ options {
 	// upstream resolvers.
   forwarders {
 
-    //cloudflare 
-    1.1.1.1
+    //cloudflare
+    1.1.1.1;
 
     //quad9
-    9.9.9.9
+    9.9.9.9;
 
 		//google dns servers
 		8.8.8.8;
