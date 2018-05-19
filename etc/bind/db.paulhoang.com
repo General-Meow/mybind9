@@ -13,6 +13,7 @@ $TTL    604800
 odroid.paulhoang.com.       IN    A   192.168.1.50
 nuc.paulhoang.com.          IN    A   192.168.1.51
 pine.paulhoang.com.         IN    A   192.168.1.52
+tinker.paulhoang.com.         IN    A   192.168.1.53
 blackpearl.paulhoang.com.   IN    A   192.168.1.70
 pinkpearl.paulhoang.com.    IN    A   192.168.1.71
 redpearl.paulhoang.com.     IN    A   192.168.1.72

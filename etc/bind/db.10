@@ -13,6 +13,7 @@ $TTL    604800
 51    IN		PTR   nuc.paulhoang.com.
 51    IN    PTR   nuc.paulhoang.com.
 52    IN    PTR   pine.paulhoang.com.
+53    IN    PTR   tinker.paulhoang.com.
 70    IN    PTR   blackpearl.paulhoang.com.
 71		IN		PTR	  pinkpearl.paulhoang.com.
 72		IN		PTR	  redpearl.paulhoang.com.
