@@ -3,9 +3,9 @@
 # Make sure you disable dnsmasq for the networking manager and restart before using this
 # nano /etc/NetworkManager/NetworkManager.conf - hash it out
 FROM alpine:3.5
-MAINTAINER Paul Hoang 2016-06-26
+MAINTAINER Paul Hoang 2018-05-19
 
-#install bind, default version as of 2016-06-26
+#install bind, default version as of 2018-05-19
 RUN ["apk", "update"]
 RUN ["apk", "add", "bind"]
 ADD ./etc/bind/db.10 /etc/bind/db.10
