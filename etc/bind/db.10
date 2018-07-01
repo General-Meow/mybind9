@@ -10,12 +10,13 @@ $TTL    604800
       IN    NS    pine.paulhoang.com.
 ; PTR Records
 50    IN    PTR   odroid.paulhoang.com.
-51    IN		PTR   nuc.paulhoang.com.
 51    IN    PTR   nuc.paulhoang.com.
 52    IN    PTR   pine.paulhoang.com.
 53    IN    PTR   tinker.paulhoang.com.
-70    IN    PTR   blackpearl.paulhoang.com.
-71		IN		PTR	  pinkpearl.paulhoang.com.
-72		IN		PTR	  redpearl.paulhoang.com.
-73		IN		PTR	  greenpearl.paulhoang.com.
-74		IN		PTR	  whitepearl.paulhoang.com.
+
+70    IN    PTR   enterprise.paulhoang.com.
+71	IN	PTR	defiant.paulhoang.com.
+72	IN	PTR	prometheus.paulhoang.com.
+73	IN	PTR	voyager.paulhoang.com.
+
+74	IN	PTR	whitepearl.paulhoang.com.
