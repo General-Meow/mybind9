@@ -1,5 +1,5 @@
 $TTL    604800
-@       IN      SOA     pine.paulhoang.com. paul.localhost. (
+@       IN      SOA     tinker.paulhoang.com. paul.localhost. (
                               8         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
@@ -10,6 +10,6 @@ $TTL    604800
           IN      NS      tinker.paulhoang.com.
 
 ; name servers - A records
-nuc.paulhoang.com.          IN    A   192.168.1.81
 tinker.paulhoang.com.       IN    A   192.168.1.80
+nuc.paulhoang.com.          IN    A   192.168.1.81
 kodi.paulhoang.com.         IN    A   192.168.1.82
