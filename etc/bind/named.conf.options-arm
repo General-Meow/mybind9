@@ -71,7 +71,7 @@ options {
 	allow-transfer { none; };
 };
 
-zone "." {
+zone "." IN {
         type forward;
         forward first;
         forwarders {
