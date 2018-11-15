@@ -1,6 +1,6 @@
 $TTL    604800
 @       IN      SOA     tinker.paulhoang.com. paul.localhost. (
-                              8         ; Serial
+                              9         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire

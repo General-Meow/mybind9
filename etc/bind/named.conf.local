@@ -3,8 +3,8 @@ zone "paulhoang.com" {
         file "/etc/bind/db.paulhoang.com";
 };
 
-zone "0.42.10.in-addr.arpa" {
+zone "168.192.in-addr.arpa" {
         type master;
         notify no;
-        file "/etc/bind/db.10";
+        file "/etc/bind/db.192.168";
 };

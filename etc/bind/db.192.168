@@ -1,6 +1,6 @@
 $TTL    604800
 @       IN      SOA     paulhoang.com. paul.localhost. (
-                              8         ; Serial
+                              9         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -9,7 +9,6 @@ $TTL    604800
 ; name servers
       IN    NS    tinker.paulhoang.com.
 ; PTR Records
-81    IN    PTR   nuc.paulhoang.com.
-80    IN    PTR   tinker.paulhoang.com.
-82    IN    PTR   kodi.paulhoang.com.
-
+1.81    IN    PTR   nuc.paulhoang.com.
+1.80    IN    PTR   tinker.paulhoang.com.
+1.82    IN    PTR   kodi.paulhoang.com.

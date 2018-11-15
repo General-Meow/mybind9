@@ -36,6 +36,12 @@
 // This is a complex issue and some level of understanding of these attacks is
 // advisable before you attempt to configure a resolver.
 
+acl goodclients {
+    192.168.1.0/24;
+    localhost;
+    localnets;
+};
+
 options {
 	directory "/var/bind";
 
@@ -66,7 +72,7 @@ options {
     //cloudflare
     1.1.1.1;
     1.0.0.1;
-	
+
     //quad9
     9.9.9.9;
     149.112.112.112;
@@ -89,6 +95,9 @@ options {
 	// Configure the IPs to listen on here.
 	listen-on { any; };
 	listen-on-v6 { any; };
+
+	recursion yes;
+  allow-query { goodclients; };
 
 	// If you have problems and are behind a firewall:
 	//query-source address * port 53;

@@ -6,8 +6,6 @@ RUN apk update && \
 apk upgrade && \
 apk add bash && \
 apk add bind-tools && \
-#apk add bind && \
-#rm -rf /var/cache/apk/*
 apk add bind
 MAINTAINER Paul Hoang 2018-05-19
 EXPOSE 53 53/udp
