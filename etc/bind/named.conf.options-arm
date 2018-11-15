@@ -91,7 +91,9 @@ options {
 
 	};
 
-  dnssec-validation auto;
+	dnssec-enable no;
+  dnssec-validation no;
+  dnssec-lookaside auto;
 
 	// By default the resolver will attempt to perform recursive resolution itself
 	// if the forwarders are unavailable. If you want this resolver to fail outright
