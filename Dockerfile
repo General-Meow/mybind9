@@ -8,7 +8,7 @@ MAINTAINER Paul Hoang 2018-05-19
 #install bind, default version as of 2018-05-19
 RUN ["apk", "update"]
 RUN ["apk", "add", "bind"]
-ADD ./etc/bind/db.10 /etc/bind/db.10
+ADD ./etc/bind/db.192.168 /etc/bind/db.192.168
 ADD ./etc/bind/db.paulhoang.com /etc/bind/db.paulhoang.com
 ADD ./etc/bind/named.conf /etc/bind/named.conf
 ADD ./etc/bind/named.conf.local /etc/bind/named.conf.local
