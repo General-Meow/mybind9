@@ -24,6 +24,8 @@ options {
     10.0.0.0/8;
 	};
 
+	//recursion yes;
+	allow-query { goodclients; };
 	// If your ISP provided one or more IP addresses for stable
 	// nameservers, you probably want to use them as forwarders.
 	// Uncomment the following block, and insert the addresses replacing
@@ -59,8 +61,6 @@ options {
 	dnssec-validation auto;
 
 	auth-nxdomain no;    # conform to RFC1035
+	listen-on { any; };
 	listen-on-v6 { any; };
-
-	recursion yes;
-  allow-query { goodclients; };
 };
